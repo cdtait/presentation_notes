@@ -72,6 +72,17 @@ These are really stating the obvious and have been talking about it in pricing f
 
 ## Engineering
 
+* Requirements Analysis and Specification: Understanding and documenting the needs of stakeholders accurately is crucial for developing software that meets user expectations. Good engineering involves thorough requirements analysis and clear specification of system functionalities.
+* Design: Creating a well-thought-out design architecture is essential for building scalable, maintainable, and flexible software systems. This involves making decisions about system structure, components, interfaces, and interactions.
+* Coding Standards and Practices: Adhering to coding standards and best practices ensures consistency, readability, and maintainability of the codebase. Good engineering involves writing clean, modular, and well-documented code.
+* Testing and Quality Assurance: Implementing robust testing strategies, including unit testing, integration testing, and system testing, helps identify defects early in the development process. Good engineering involves ensuring software quality through rigorous testing and quality assurance practices.
+* Version Control and Collaboration: Utilizing version control systems (e.g., Git) facilitates collaboration among team members and enables efficient management of code changes. Good engineering involves effective collaboration and communication within the development team.
+* Continuous Integration and Deployment (CI/CD): Implementing CI/CD pipelines automates the process of building, testing, and deploying software changes, leading to faster delivery cycles and improved software quality. Good engineering involves adopting CI/CD practices to streamline the development and release process.
+* Security: Incorporating security measures throughout the software development lifecycle helps mitigate potential vulnerabilities and protect sensitive data. Good engineering involves implementing security best practices, such as secure coding standards, encryption, and vulnerability scanning.
+* Performance Optimization: Identifying and addressing performance bottlenecks ensures that software systems meet performance requirements and deliver a satisfactory user experience. Good engineering involves optimizing code and system performance through profiling, benchmarking, and tuning.
+* Documentation: Documenting system architecture, design decisions, APIs, and user manuals facilitates understanding, maintenance, and knowledge transfer within the development team and to stakeholders. Good engineering involves maintaining comprehensive and up-to-date documentation.
+* Continuous Learning and Improvement: Embracing a culture of continuous learning, feedback, and improvement fosters innovation and ensures that development practices evolve over time. Good engineering involves staying updated with emerging technologies, industry trends, and best practices.
+
 ### Pricing
 * Pricing are at the sharp end of delivering prices quickly, to a vey demanding audience capacity with short latency.
 * C++ has been used to give the ability for hgh perfomance and capacity
