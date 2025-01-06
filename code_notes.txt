@@ -1,0 +1,17 @@
+# Commands
+# Get maat
+wget https://github.com/adamtornhill/code-maat/releases/download/v1.0.4/code-maat-1.0.4-standalone.jar
+alias maat="java -jar /home/ctait/.local/jars/code-maat-1.0.4-standalone.jar"
+# Check out cloc
+gh repo clone AlDanial/cloc
+cd cloc/
+cp cloc ~/.local/bin
+# Checkout maat scripts
+gh repo clone adamtornhill/maat-scripts
+cd react
+git log --all --numstat --date=short --pretty=format:'--%h--%ad--%aN' --no-renames --after=2021-08-01 > react_git_log.txt
+cloc ./ --unix --by-file --csv --quiet --report-file=react_complexity.csv 
+maat -l react_git_log.txt -c git2 -a revisions > react_revisions.csv
+python2.7 ~/git/maat-scripts/merge/merge_comp_freqs.py react_revisions.csv react_complexity.csv  > react_comp_freqs.csv
+python plot_frequency.py 
+# Save plot as ChangeFrequencyDistribution.png
